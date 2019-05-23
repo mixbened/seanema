@@ -1,0 +1,247 @@
+body {
+    color: #4b6cb7;
+    background: #ffffff;
+    font-family: Avenir, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, section {
+    min-height: 100vh;
+}
+
+section {
+    padding-top: 8%; 
+}
+
+header {
+    background: url('./terrace2.jpeg');
+    background-size: cover;
+}
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: 0.6rem;
+    font-weight: 200;
+    margin: 0;
+    padding-top: 20%;
+}
+
+h2 {
+    color: #4b6cb7;
+    font-size: 2rem;
+    max-width: 40%;
+    margin: 0 auto;
+    border-bottom: 1px solid #4b6cb7;
+}
+
+h5 {
+    font-size: 1rem;
+    margin: 2% 0;
+    color: #4b6cb7 !important;
+}
+
+h6 {
+    font-size: 1.5rem;
+}
+
+.social-container {
+    border-right: 1px solid #999;
+    flex: 1;
+    padding-right: 5%;
+}
+
+.item {
+    margin: 5% 2%;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    min-width: 300px;
+}
+
+.social-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: transparent;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-section {
+    
+}
+
+.tripadvisor {
+    color: #222;
+}
+.facebook {
+    color: #4b6cb7;
+}
+.instagram {
+    color: #F77737;
+}
+.maps {
+    color: #FD1D1D;
+}
+
+.list {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background: #4b6cb7;
+    padding: 1em;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    margin: 1% 0;
+}
+
+#gallery-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1%;
+}
+
+#gallery-wrapper > div {
+    margin: 0 1%;
+    width: 100px;
+    height: 85vh;
+    flex: 1; 
+}
+
+#left {
+    background: url('./lounge.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+#first {
+    background: url('./sea.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    width: 100%;
+}
+
+#second {
+    background: url('./night.JPG');
+    background-size: cover;
+    background-position: center;
+    margin-top: 2vh;
+    height: 48vh;
+    width: 100%;
+}
+
+header:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #076585;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+        opacity: .6;
+}
+
+header > h1, h5, button {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    color: #ffffff;
+    border: 0;
+    background: #4b6cb7;
+    padding: .5rem 1rem;
+    margin: .8rem;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #7089c5;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 5% auto;
+}
+
+.adress {
+    flex: 1;
+    margin-left: 5%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+nav {
+    background: #4b6cb7;
+    padding: 1rem;
+    position: fixed;
+    font-size: 1rem;
+    width: 100%;
+    text-align: left;
+    color: white;
+    z-index: 2;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+        padding-top: 30%;
+    }
+
+    h2 {
+        max-width: 80%;
+        font-size: 2rem;
+    }
+
+    .social-item, h6  {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .list {
+        width: 80%;
+    }
+}
