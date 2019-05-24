@@ -11,86 +11,45 @@
 <body>
     <nav>SEANEMA</nav>
     <header>
-        <h1>Seanema</h1>
+        <h1 style="color: white;">Seanema</h1>
         <h5 style="color: white;">Cretan Food in Almyrida</h5>
         <button>Menu</button>
     </header>
     <section class="menu-section">
         <h2>Menu</h2>
         <h5>Fresh and local food supplies everyday</h5>
-        <h6>Starters</h6>
-        <ul class="list">
-            <li class="item">
-                <h3>Dolmativa</h3>
-                <p>Wine Leaves stuffed with rice and tomato</p>
-            </li>
-            <li class="item">
-                <h3>Dolmativa</h3>
-                <p>Wine Leaves stuffed with rice and tomato</p>
-            </li>
-            <li class="item">
-                <h3>Dolmativa</h3>
-                <p>Wine Leaves stuffed with rice and tomato</p>
-            </li>
-        </ul>
-        <h6>Main Dish</h6>
-        <ul class="list">
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-            </ul>
-        <h6>Dessert</h6>
-        <ul class="list">
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-            </ul>
-        <h6>Drinks</h6>
-        <ul class="list">
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-                <li class="item">
-                    <h3>Dolmativa</h3>
-                    <p>Wine Leaves stuffed with rice and tomato</p>
-                </li>
-            </ul>
+        <h6 class="toggler">Starters <i class="far fa-plus-square plus"></i></h6>
+        <h6 class="toggler">Main Dish <i class="far fa-plus-square plus"></i></h6>
+        <h6 class="toggler">Dessert <i class="far fa-plus-square plus"></i></h6>
+        <h6 class="toggler">Drinks <i class="far fa-plus-square plus"></i></h6>
     </section>
     <section class="recommendations-section">
         <h2>Recommendations</h2>
         <h5>That is what our Customers think about us</h5>
+        <div class="container">
+            <div class="fb">
+
+            </div>
+            <div class="ta">
+
+            </div>
+        </div>
     </section>
     <section class="gallery-section">
         <h2>The Seanema</h2>
         <h5>This is what you can expect</h5>
         <div id="gallery-wrapper">
-            <div id="left"></div>
+            <div id="left">
+                <div class="layer"></div>
+            </div>
             <div id="right">
-                <div id="first"></div>
-                <div id="second"></div>
+                <div id="first">
+                    <div class="layer">
+                </div>
+            </div>
+                <div id="second">
+                    <div class="layer"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -99,19 +58,19 @@
         <h5>Do not hestitate to contact us!</h5>
         <div class="container">
             <div class="social-container">
-                <a href="#"><div class="social-item">
+                <a target="_blank" href="https://www.tripadvisor.de/Restaurant_Review-g775923-d13995375-Reviews-Seanema-Almyrida_Chania_Prefecture_Crete.html#REVIEWS"><div class="social-item">
                     <div class="social-pic tripadvisor"><i class="fab fa-tripadvisor"></i></div>
                     <h6 style="color: #00a680">Tripadvisor</h6>
                 </div></a>
-                <a href="#"><div class="social-item">
+                <a target="_blank" href="https://www.facebook.com/seanema23/"><div class="social-item">
                     <div class="social-pic facebook"><i class="fab fa-facebook"></i></div>
                     <h6 style="color: #4b6cb7">Facebook</h6>
                 </div></a>
-                <a href="#"><div class="social-item">
+                <a target="_blank"  href="#"><div class="social-item">
                     <div class="social-pic instagram"><i class="fab fa-instagram"></i></div>
                     <h6 style="color: #E1306C">Instagram</h6>
                 </div></a>
-                <a href="#"><div class="social-item">
+                <a target="_blank"  href="https://www.google.com/maps/place/Seanema/@35.4492227,24.1979895,17z/data=!3m1!4b1!4m5!3m4!1s0x149b7f7c63178c85:0x92eb1290176809f2!8m2!3d35.4492227!4d24.2001782"><div class="social-item">
                     <div class="social-pic maps"><i class="fas fa-directions"></i></div>
                     <h6 style="color: #444">Google Maps</h6>
                 </div></a>
@@ -131,7 +90,10 @@
     <footer>
         All rights reserverd. 2019
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     <script src="./script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 </body>
 </html>
