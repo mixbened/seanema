@@ -1,12 +1,992 @@
 [ 
+     {
+         "category": "salads",
+         "title": "Greek",
+         "desc": "",
+         "price": "5.90"
+     },
+     {
+         "category": "salads",
+         "title": "Eggplant",
+         "desc": "",
+         "price": "4.20"
+     },
+     {
+         "category": "salads",
+         "title": "Chaniotiki",
+         "desc": "",
+         "price": "6.70"
+     },
+     {
+         "category": "salads",
+         "title": "Tomato Cucumber",
+         "desc": "",
+         "price": "4.90"
+     },
+     {
+         "category": "salads",
+         "title": "Chef",
+         "desc": "",
+         "price": "5.90"
+     },
+     {
+         "category": "salads",
+         "title": "Cezar",
+         "desc": "",
+         "price": "7.60"
+     },
+     {
+         "category": "salads",
+         "title": "Chicken Sweet Chilli",
+         "desc": "",
+         "price": "9.30"
+     },
+     {
+         "category": "salads",
+         "title": "Squid",
+         "desc": "",
+         "price": "9.60"
+     },
+     {
+         "category": "salads",
+         "title": "Tuna",
+         "desc": "",
+         "price": "8.90"
+     },
+     {
+         "category": "salads",
+         "title": "Sea Bream",
+         "desc": "",
+         "price": "13.70"
+     },
+     {
+         "category": "salads",
+         "title": "Sea Bass",
+         "desc": "",
+         "price": "14.60"
+     },
+     {
+         "category": "salads",
+         "title": "Octopus",
+         "desc": "",
+         "price": "13.20"
+     },
+     {
+         "category": "salads",
+         "title": "Salmon",
+         "desc": "",
+         "price": "13.60"
+     },
+     {
+         "category": "salads",
+         "title": "Shrimps",
+         "desc": "",
+         "price": "11.70"
+     },
+     {
+         "category": "salads",
+         "title": "Beef fillet",
+         "desc": "",
+         "price": "21.60"
+     },
+     {
+         "category": "salads",
+         "title": "Seanema Special Mix",
+         "desc": "",
+         "price": "10.90"
+     },
+     {
+        "category": "Grill Food",
+        "title": "Pork Fillet",
+        "desc": "",
+        "price": "12.90"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Pork Steak",
+        "desc": "",
+        "price": "10.20"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Beef Steak",
+        "desc": "",
+        "price": "15.70"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Beef Fillet",
+        "desc": "",
+        "price": "23.40"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Lamb ribs",
+        "desc": "",
+        "price": "14.40"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Chicken Fillet",
+        "desc": "",
+        "price": "9.70"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Burger Portion",
+        "desc": "",
+        "price": "9.40"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Stuffed Burger",
+        "desc": "",
+        "price": "10.60"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Beef Sausages",
+        "desc": "",
+        "price": "10.40"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Prok Skewer",
+        "desc": "",
+        "price": "8.90"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Chicken Skewer",
+        "desc": "",
+        "price": "9.80"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Beef Skewer",
+        "desc": "",
+        "price": "14.90"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Salmon",
+        "desc": "",
+        "price": "13.60"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Veggie Skewer",
+        "desc": "",
+        "price": "8.70"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Veggie Burger",
+        "desc": "",
+        "price": "8.70"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Mix Grill for 2",
+        "desc": "",
+        "price": "19.90"
+    },
+    {
+        "category": "Grill Food",
+        "title": "Mix Grill for 4",
+        "desc": "",
+        "price": "38.60"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Sea Bream",
+        "desc": "",
+        "price": "16.90"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Sea Bass",
+        "desc": "",
+        "price": "17.40"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Salmon",
+        "desc": "",
+        "price": "15.40"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Croaker",
+        "desc": "",
+        "price": "20.60"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Tuna",
+        "desc": "",
+        "price": "19.90"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Swordfish",
+        "desc": "",
+        "price": "18.70"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Sardine",
+        "desc": "",
+        "price": "9.90"
+    },
+    {
+        "category": "Sea Food",
+        "title": "White Sea Bream per kilo",
+        "desc": "",
+        "price": "35"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Dentex per kg",
+        "desc": "",
+        "price": "38"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Squid",
+        "desc": "",
+        "price": "9.60"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Grill Squid",
+        "desc": "",
+        "price": "9.60"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Octopus",
+        "desc": "",
+        "price": "14.90"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Shrimps",
+        "desc": "",
+        "price": "13.40"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Mussels",
+        "desc": "",
+        "price": "10.60"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Fish and Chips",
+        "desc": "",
+        "price": "9.90"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Whitebait",
+        "desc": "",
+        "price": "9.70"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Lobster per kg",
+        "desc": "",
+        "price": "50"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Variety for 2 persons",
+        "desc": "",
+        "price": "23.70"
+    },
+    {
+        "category": "Sea Food",
+        "title": "Variety for 4 persons",
+        "desc": "",
+        "price": "45.80"
+    },
+    {
+        "category": "starters",
+        "title": "Tzatziki",
+        "desc": "",
+        "price": "3.70"
+    },
+    {
+        "category": "starters",
+        "title": "Eggplant",
+        "desc": "",
+        "price": "4.50"
+    },
+    {
+        "category": "starters",
+        "title": "Fish roe salad",
+        "desc": "",
+        "price": "4.30"
+    },
+    {
+        "category": "starters",
+        "title": "Garlic sauce",
+        "desc": "",
+        "price": "3.70"
+    },
+    {
+        "category": "starters",
+        "title": "Garlic bread",
+        "desc": "",
+        "price": "4.60"
+    },
+    {
+        "category": "starters",
+        "title": "Bruschetta",
+        "desc": "",
+        "price": "4.90"
+      },
+      {
+        "category": "starters",
+        "title": "Bruschetta trio",
+        "desc": "",
+        "price": "6.90"
+      },
+      {
+        "category": "starters",
+        "title": "Fried potatoes",
+        "desc": "",
+        "price": "4.30"
+      },
+      {
+        "category": "starters",
+        "title": "Dakos",
+        "desc": "",
+        "price": "4.90"
+      },
+      {
+        "category": "starters",
+        "title": "Kalitsounia",
+        "desc": "",
+        "price": "5.90"
+      },
+      {
+        "category": "starters",
+        "title": "Spice cheese salad",
+        "desc": "",
+        "price": "4.30"
+      },
+      {
+        "category": "starters",
+        "title": "4 different olives",
+        "desc": "",
+        "price": "3.40"
+      },
+      {
+        "category": "starters",
+        "title": "Grill feta",
+        "desc": "",
+        "price": "5.40"
+      },
+      {
+        "category": "starters",
+        "title": "Saganaki cheese",
+        "desc": "",
+        "price": "4.90"
+      },
+      {
+        "category": "starters",
+        "title": "Cheeseballs",
+        "desc": "",
+        "price": "5.90"
+      },
+      {
+        "category": "starters",
+        "title": "Courgette balls",
+        "desc": "",
+        "price": "5.90"
+      },
+      {
+        "category": "starters",
+        "title": "Stuffed vine leaves",
+        "desc": "",
+        "price": "6.90"
+      },
+      {
+        "category": "starters",
+        "title": "Caperonata",
+        "desc": "",
+        "price": "6.90"
+      },
+      {
+        "category": "starters",
+        "title": "Courgette flower with mozzarella and prosciutto",
+        "desc": "",
+        "price": "9.90"
+      },
+      {
+        "category": "starters",
+        "title": "Grilled mushrooms",
+        "desc": "",
+        "price": "7.90"
+      },
+      {
+        "category": "starters",
+        "title": "Fried mix veggies",
+        "desc": "",
+        "price": "5.90"
+      },
+      {
+        "category": "starters",
+        "title": "Chicken bacon balls",
+        "desc": "",
+        "price": "5.90"
+      },
+      {
+        "category": "starters",
+        "title": "Beef sausages with peppers and olives",
+        "desc": "",
+        "price": "6.90"
+      },
+      {
+        "category": "starters",
+        "title": "Cretan pork apaki",
+        "desc": "",
+        "price": "6.90"
+      },
+      {
+        "category": "starters",
+        "title": "Cretan pork siglino",
+        "desc": "",
+        "price": "6.90"
+      },
+      {
+        "category": "starters",
+        "title": "Pork with wine sauce",
+        "desc": "",
+        "price": "6.80"
+      },
+      {
+        "category": "starters",
+        "title": "Coconut Chicken",
+        "desc": "",
+        "price": "7.90"
+      },
+      {
+        "category": "starters",
+        "title": "Dates and Bacon",
+        "desc": "",
+        "price": "8.80"
+      },
+      {
+        "category": "starters",
+        "title": "Meatballs",
+        "desc": "",
+        "price": "6.70"
+      },
+      {
+        "category": "starters",
+        "title": "Beef fillet Seanema",
+        "desc": "",
+        "price": "10.90"
+      },
+      {
+        "category": "starters",
+        "title": "Beef Carpaccio",
+        "desc": "",
+        "price": "14.90"
+      },
+      {
+        "category": "starters",
+        "title": "Alpodiga",
+        "desc": "",
+        "price": "7.90"
+      },
+      {
+        "category": "starters",
+        "title": "Shrimps with garlic",
+        "desc": "",
+        "price": "7.90"
+      },
+      {
+        "category": "starters",
+        "title": "Shrimps AOP",
+        "desc": "",
+        "price": "8.30"
+      },
+      {
+        "category": "starters",
+        "title": "Shrimps saganaki",
+        "desc": "",
+        "price": "8.40"
+      },
+      {
+        "category": "starters",
+        "title": "Shrimps Seanema",
+        "desc": "",
+        "price": "12.70"
+      },
+      {
+        "category": "starters",
+        "title": "Sardines",
+        "desc": "",
+        "price": "7.90"
+      },
+      {
+        "category": "starters",
+        "title": "Fruit de mare",
+        "desc": "",
+        "price": "11.40"
+      },
+      {
+        "category": "starters",
+        "title": "Variety of starters for 2",
+        "desc": "",
+        "price": "8.40"
+      },
+      {
+        "category": "starters",
+        "title": "Variety of starters for 4",
+        "desc": "",
+        "price": "16.00"
+      },
+      {
+        "category": "traditional",
+        "title": "Beef stifado",
+        "desc": "",
+        "price": "11.20"
+      },
+      {
+        "category": "traditional",
+        "title": "Lamb tsigariasto",
+        "desc": "",
+        "price": "10.90"
+      },
+      {
+        "category": "traditional",
+        "title": "Lamb kleftiko",
+        "desc": "",
+        "price": "12.60"
+      },
+      {
+        "category": "traditional",
+        "title": "Mouzaka",
+        "desc": "",
+        "price": "8.40"
+      },
+      {
+        "category": "traditional",
+        "title": "Stuffed vegetables",
+        "desc": "",
+        "price": "7.90"
+      },
+      {
+        "category": "traditional",
+        "title": "Boureki",
+        "desc": "",
+        "price": "8.30"
+      },
+      {
+        "category": "traditional",
+        "title": "Briam",
+        "desc": "",
+        "price": "7.90"
+      },
+      {
+        "category": "traditional",
+        "title": "Chicken with lemon sauce",
+        "desc": "",
+        "price": "9.30"
+      },
+      {
+        "category": "traditional",
+        "title": "Rooster in tomato sauce",
+        "desc": "",
+        "price": "12.90"
+      },
+      {
+        "category": "traditional",
+        "title": "Soutzoukakia",
+        "desc": "",
+        "price": "8.70"
+      },
+      {
+        "category": "traditional",
+        "title": "Pork with peppers",
+        "desc": "",
+        "price": "9.70"
+      },
+      {
+        "category": "traditional",
+        "title": "Greek gyros plate",
+        "desc": "",
+        "price": "9.90"
+      },
+      {
+        "category": "burger",
+        "title": "Cheese Pork Burger",
+        "desc": "",
+        "price": "5.70"
+      },
+      {
+        "category": "burger",
+        "title": "Seanema Special Burger (Pork, 250gr)",
+        "desc": "",
+        "price": "9.60"
+      },
+      {
+        "category": "burger",
+        "title": "Beef Burger",
+        "desc": "",
+        "price": "7.10"
+      },
+      {
+        "category": "burger",
+        "title": "Beef Cheese Burger",
+        "desc": "",
+        "price": "7.60"
+      },
+      {
+        "category": "burger",
+        "title": "Seanema Special Burger (Beef, 250gr)",
+        "desc": "",
+        "price": "12.40"
+      },
+      {
+        "category": "burger",
+        "title": "Chicken Cheese Burger",
+        "desc": "",
+        "price": "6.60"
+      },
+      {
+        "category": "burger",
+        "title": "Chicken Special Burger",
+        "desc": "",
+        "price": "7.80"
+      },
+      {
+        "category": "burger",
+        "title": "Veggie Burger",
+        "desc": "",
+        "price": "6.70"
+      },
+      {
+        "category": "burger",
+        "title": "Sandwich Turkey",
+        "desc": "",
+        "price": "6.20"
+      },
+      {
+        "category": "burger",
+        "title": "Sandwich Chicken Fillet",
+        "desc": "",
+        "price": "7.40"
+      },
+      {
+        "category": "burger",
+        "title": "Sandwich Tuna",
+        "desc": "",
+        "price": "7.90"
+      },
+      {
+        "category": "burger",
+        "title": "Sandwich Salmon",
+        "desc": "",
+        "price": "8.30"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Pasta Napoli",
+        "desc": "",
+        "price": "6.50"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Pasta Pesto Pasta",
+        "desc": "",
+        "price": "6.90"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Pasta Carbonara",
+        "desc": "",
+        "price": "8.20"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Vegetables Pasta",
+        "desc": "",
+        "price": "7.30"
+     },
+     {
+        "category": "Pasta & Risotto",
+        "title": "Salmon Pasta",
+        "desc": "",
+        "price": "13.40"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Sea mix Pasta",
+        "desc": "",
+        "price": "13.70"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Beef fillet Pasta",
+        "desc": "",
+        "price": "18.90"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Shrimps Pasta",
+        "desc": "",
+        "price": "12.40"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Sardine Pasta",
+        "desc": "",
+        "price": "11.60"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Truffle Pasta",
+        "desc": "",
+        "price": "19.60"
+     },
+     {
+        "category": "Pasta & Risotto",
+        "title": "Crabs lobster Tortellini",
+        "desc": "",
+        "price": "24.40"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "gluten free",
+        "desc": "",
+        "price": "+1.00"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "soya",
+        "desc": "",
+        "price": "+0.70"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "wholemeal",
+        "desc": "",
+        "price": "+1.00"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "multigrain",
+        "desc": "",
+        "price": "+0.80"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Risotto 4 Cheese",
+        "desc": "",
+        "price": "11.20"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Risotto Chicken",
+        "desc": "",
+        "price": "13.20"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Risotto Sea mix",
+        "desc": "",
+        "price": "15.30"
+      },
+      {
+        "category": "Pasta & Risotto",
+        "title": "Risotto Mushrooms",
+        "desc": "",
+        "price": "13.20"
+     },
+     {
+        "category": "children",
+        "title": "Meat balls",
+        "desc": "",
+        "price": "5.50"
+      },
+      {
+        "category": "children",
+        "title": "Fish sticks",
+        "desc": "",
+        "price": "6.50"
+      },
+      {
+        "category": "children",
+        "title": "Spaghetti Napoli",
+        "desc": "",
+        "price": "4.00"
+      },
+      {
+        "category": "children",
+        "title": "Spaghetti Pesto",
+        "desc": "",
+        "price": "4.00"
+      },
+      {
+        "category": "children",
+        "title": "Spaghetti Carbonara",
+        "desc": "",
+        "price": "4.90"
+      },
+      {
+        "category": "children",
+        "title": "Fried potatoes with eggs",
+        "desc": "",
+        "price": "4.00"
+      },
+      {
+        "category": "children",
+        "title": "Pork skewer",
+        "desc": "",
+        "price": "4.50"
+      },
+      {
+        "category": "children",
+        "title": "Chicken skewer",
+        "desc": "",
+        "price": "5.00"
+      },
         {
-            "category": "starters",
-            "title": "Dolmathes",
-            "desc": "stuffed wine leaves with rice and tomato"
+        "category": "children",
+        "title": "Beef skewer",
+        "desc": "",
+        "price": "9.00"
+      },
+      {
+        "category": "children",
+        "title": "Vegetarian Burger",
+        "desc": "",
+        "price": "4.50"
+      },
+      {
+          "category": "vegan",
+          "title": "Eggplant salad",
+          "desc": "",
+          "price": "3.70"
         },
         {
-            "category": "starters",
-            "title": "Dolmathes",
-            "desc": "stuffed wine leaves with rice and tomato"
-        }
+          "category": "vegan",
+          "title": "Garlic sauce",
+          "desc": "",
+          "price": "3.70"
+        },
+        {
+          "category": "vegan",
+          "title": "Stuffed vine leaves",
+          "desc": "",
+          "price": "6.90"
+        },
+        {
+          "category": "vegan",
+          "title": "Spinach pie",
+          "desc": "",
+          "price": "6.20"
+        },
+        {
+          "category": "vegan",
+          "title": "Spring rolls",
+          "desc": "",
+          "price": "7.20"
+        },
+        {
+          "category": "vegan",
+          "title": "Grilled mushrooms",
+          "desc": "",
+          "price": "7.90"
+        },
+        {
+          "category": "vegan",
+          "title": "Fried courgettes",
+          "desc": "",
+          "price": "4.60"
+        },
+        {
+          "category": "vegan",
+          "title": "Fried mix veggies",
+          "desc": "",
+          "price": "5.90"
+        },
+      {
+      "category": "vegan",
+      "title": "Pasta Napoli",
+      "desc": "",
+      "price": "6.50"
+    },
+    {
+      "category": "vegan",
+      "title": "Pasta Pesto",
+      "desc": "",
+      "price": "6.90"
+    },
+      {
+      "category": "vegan",
+      "title": "Pasta Vegetables",
+      "desc": "",
+      "price": "7.30"
+    },
+    {
+      "category": "vegan",
+      "title": "Truffle Pasta",
+      "desc": "",
+      "price": "19.60"
+    },
+    {
+      "category": "vegan",
+      "title": "Stuffed Vegetables",
+      "desc": "",
+      "price": "7.90"
+    },
+      {
+      "category": "vegan",
+      "title": "Briam",
+      "desc": "",
+      "price": "7.90"
+    },
+    {
+      "category": "vegan",
+      "title": "Pastitsio",
+      "desc": "",
+      "price": "9"
+    },
+      {
+      "category": "vegan",
+      "title": "Veggie Burger",
+      "desc": "",
+      "price": "8.70"
+    },
+    {
+      "category": "vegan",
+      "title": "Veggie Skewer",
+      "desc": "",
+      "price": "8.70"
+    },
+    {
+      "category": "vegan",
+      "title": "Schnitzel",
+      "desc": "",
+      "price": "9.30"
+    },
+      {
+      "category": "vegan",
+      "title": "Risotto Mushrooms",
+      "desc": "",
+      "price": "13.20"
+    },
+    {
+      "category": "vegan",
+      "title": "Risotto Vegetables",
+      "desc": "",
+      "price": "9.70"
+    }
 ]
