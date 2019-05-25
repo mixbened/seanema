@@ -1,10 +1,31 @@
 var menu = []
 
-$.getJSON("./assets/menu.json", (json) => {
-    menu = json
-    createMenu()
-})
+$.getJSON("https://spreadsheets.google.com/feeds/cells/171r_CHVxOaQ3tT-sM2WCZ0n-7vUn-EmRtax_icPXI9g/1/public/full?alt=json", (json) => {
+    data = json.feed.entry
+    // console.log('Extern: ', menu)
+    // leave out first 4 rows (headers)
+    //counter variable
+    // console.log('Data', data)
+    if(data.length > 4){
+        for(let i = 4; i < data.length; i+=4){
+            let meal = {
+                category: data[i].content.$t,
+                title: data[i+1].content.$t,
+                desc: data[i+2].content.$t,
+                price: data[i+3].content.$t
+            }
+            menu.push(meal)
+        }   
+        createMenu()
+    } else {
+        console.log('No Menu data...')
+        $.getJSON("./assets/menu.json", (json) => {
+            menu = json
+            createMenu()
 
+        })
+    }
+})
 
 $('.toggler').click(function() {
     const list = $(this).next();
@@ -36,7 +57,7 @@ function createListElement(arr){
 function createMenu(){
     // CATEGORY
     const starters = menu.filter(el => el.category === 'starters')
-    console.log('All Starters: ', starters)
+    // console.log('All Starters: ', starters)
     startersString = createListElement(starters)
     // console.log('Whole List elem: ', startersString)
     let goal = $("h6:contains('Starters')")
